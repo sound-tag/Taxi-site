@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(./images/background.png);
+    background-size: cover;
+    background-position: center;
+    height: 660px;
+    
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+    padding: 20px;
+}
+.head h1{
+    font-size: 40px;
+    color: white;
+    font-family: sans-serif;
+}
+.head h1 span{
+    color: #DAA505;
+}
+.head-list #navbar{
+    display: flex;
+}
+.head-list li{
+    margin-left: 20px;
+    font-weight: bold;
+    list-style: none;
+}
+.head-list a{
+    text-decoration: none;
+    color: white;
+}
+.head-list a:hover{
+    background-color: #FFC61A;
+    border-radius: 10px;
+    padding: 5px 30px;
+    transition: .3s ease-in-out;
+}
+.head-text{
+    color: white;
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    /* position: absolute; */
+}
+.head-text h1 span{
+    color: #FFC61A;
+}
+.photo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.photo img{
+    width: 50%;
+    margin-top: -20px;
+}
+.hub{
+    background-color: #FFC61A;
+    height: 500px;
+    /* padding: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.write{
+    width: 45%;
+    margin: 30px;
+}
+.write h1{
+    font-size: 35px;
+}
+.write h2{
+    font-size: 30px;
+}
+.write button{
+    /* font-size: larger; */
+    border-radius: 1px;
+    width: 130px;
+    height: 35px;
+    background: transparent;
+    cursor: pointer;
+}
+.write button:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+}
+.form{
+    background-color: white;
+    margin-top: 40px;
+    padding: 10px;
+    height: 400px;
+    width: 40%;
+    text-align: center;
+}
+.form h1{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+    height: 50px;
+    padding: 10px;
+}
+.form .title h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form .inpu{
+    display: flex;
+    flex-wrap: wrap;
+}
+.form input{
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 35%;
+    padding: 20px;
+    margin: 10px;
+}
+.form button{
+    font-size: 20px;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+    height: 50px;
+    padding: 10px;
+    cursor: pointer;
+}
+.form .title h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tit{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.tit span{
+    color: #FFC61A;
+}
+.section-header{
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 30px 70px 0 70px;
+}
+.section{
+    text-align: center;
+    margin: 20px;
+}
+.section img{
+    width: 70%;
+}
+.section h1{
+    margin-bottom: 20px;
+}
+.section p{
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.section h3{
+    font-size: 25px;
+    font-weight: 25px;
+    color: #FFC61A;
+    margin-bottom: 20px;
+}
+.section button{
+    width: 150px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.section:nth-child(2){
+    background-color: #FFC61A;
+    height: 350px;
+}
+.section:nth-child(2) img{
+    margin-top: -30px;
+}
+.section:nth-child(2) h3{
+    color: black;
+}
+.booking-section{
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(./images/secbg.png);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    color: white;
+}
+.booking-section .booking-text{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+.booking-section .booking-text span{
+    color: #FFC61A;
+}
+.booking-section .sub-list{
+    display: flex;
+}
+.booking-section .sub-list2{
+    display: flex;
+}
+.booking-section .sub-list, 
+.sub-list2{
+    margin: 70px;
+}
+.booking-section .sub-list h1, 
+.sub-list2 h1{
+    color: #FFC61A;
+    padding-bottom: 20px;
+}
+.booking-section .fast{
+    width: 50%;
+}
+.testimonial-text{
+    text-align: center;
+    padding: 20px;
+    color: #FFC61A;
+    font-size: 20px;
+}
+.testimonial{
+    background-image: url(./images/testimonial\ back.png);
+    background-position: center;
+    background-size: cover;
+}
+.testimonial .happy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: black; */
+    color: white;
+    margin: 0 70px;
+    padding: 30px;
+}
+.testimonial .happy .happy-clients{
+    margin: 10px;
+    padding: 20px;
+    background-color: black;
+    padding: 30px;
+}
+.testimonial .happy .happy-clients p{
+    font-size: 15px;
+}
+.testimonial .john{
+    display: flex;
+    margin-top: 30px;
+}
+.testimonial .john img{
+    position: relative;
+}
+.testimonial .john h1{
+    padding: 15px;
+    font-size: 20px;
+    color: #FFC61A;
+}
+#mobile{
+    display: none;
+}
+#close{
+    display: none;
+}
+
+
+@media (max-width:799px) {
+    .head{
+        margin: 0px;
+    }
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: black;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+        transition: .3s;
+    }
+    #navbar.active{
+        right: 0px;
+    }
+    .head-list li{
+        margin-bottom: 25px;
+    }
+    #mobile{
+        display: flex;
+        color: white;
+    }
+    #mobile button{
+        width: 70px;
+        /* padding: 10px; */
+        font-size: 30px;
+        cursor: pointer;
+        background-color:#FFC61A;
+        border: none;
+        border-radius: 5px;
+
+    }
+    #close{
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+    .hub {
+        display: flex;
+        flex-direction: column;
+        /* width: 100%; */
+        /* z-index: 999; */
+        padding: 30px;
+        /* margin-bottom: 400px; */
+        height: 100%;
+        
+    }
+    .write {
+        width: 100%;
+
+    }
+    .form {
+        width: 50%;
+
+    }
+    .form .inpu {
+        display: flex;
+        /* flex-direction: column; */
+        /* height: 100%; */
+        /* position: absolute; */
+        /* width: 100%; */
+    }
+    .form input {
+        /* position: relative; */
+        display: flex;
+        width: 90%;
+        padding: 0px;
+        margin: 10px;
+    }
+    .section-header {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        margin: 30px 70px 0 70px;
+    }
+}
